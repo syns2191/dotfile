@@ -1,0 +1,60 @@
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+macos-option-as-alt = true
+
+background-opacity = 0.95
+background-blur = 20
+
+theme = Solarized Dark - Patched
+#theme = Builtin Solarized Dark
+#theme = Cobalt2
+#theme = tokyonight-day
+#theme = tokyonight_moon
+mouse-hide-while-typing = true
+macos-titlebar-style = tabs
+macos-window-shadow =true
+window-padding-y = 2
+
+window-theme = light
+
+font-family = "Fira Code"
+#font-family = "Cascadia Code PL"
+font-size = 13
+
+# window-decoration=none
+
+
+window-padding-x= 10
+#window-padding-y=15,5
+font-thicken = true
+font-thicken-strength=255
+
+
+
+
+#font-feature = "liga", "+kern"
+font-feature = "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "zero", "onum"
+
+#font-family-bold = "Cascadia Code PL Bold"
+#font-family-italic = "Cascadia Code PL Italic"
+#font-family-bold-italic = "Cascadia Code PL Bold Italic"
+
+font-family-bold = "Fira Code Bold"
+font-family-italic = "Fira Code Medium"
+font-family-bold-italic = "Fira Code SemiBold"
+
+font-synthetic-style = true
+
+font-style = "Italic" 
+font-style-bold = "Bold" 
+font-style-italic = "Italic" 
+font-style-bold-italic = "Bold Italic" 
+
+font-variation = "wght=400"
+font-variation-italic = "wght=400"
+font-variation-italic = "slnt=0"
+
+scrollback-limit = 999999
+
+
+gtk-custom-css=./ghostty.css
