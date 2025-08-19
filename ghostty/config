@@ -1,3 +1,4 @@
+
 keybind = alt+left=unbind
 keybind = alt+right=unbind
 macos-option-as-alt = true
@@ -19,23 +20,24 @@ window-theme = light
 
 #font-family = "Fira Code"
 #font-family = "Cascadia Code PL"
-font-family = "IBM Plex Mono"
-#font-size = 14
+font-family = "BlexMono Nerd Font Mono"
+#font-size = 18
 
 # window-decoration=none
+window-colorspace = display-p3
 
 
 window-padding-x= 10
 #window-padding-y=15,5
-#font-thicken = true
-#font-thicken-strength=255
+font-thicken = true
+font-thicken-strength=255
 
 
 
 
 #font-feature = "liga", "+kern"
-font-feature = "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "zero", "onum"
-
+#font-feature = "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "zero", "onum"
+#font-feature = "+ss01,+ss02,+ss03,+ss04,+ss05,+ss06,+zero,+onum"
 #font-family-bold = "Cascadia Code PL Bold"
 #font-family-italic = "Cascadia Code PL Italic"
 #font-family-bold-italic = "Cascadia Code PL Bold Italic"
@@ -44,26 +46,33 @@ font-feature = "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "zero", "onum"
 #font-family-italic = "Fira Code Medium"
 #font-family-bold-italic = "Fira Code SemiBold"
 
-font-family-bold = "IBM Plex Mono Bold"
-font-family-italic = "IBM Plex Mono Italic"
-font-family-bold-italic = "IBM Plex Mono Bold Italic"
+font-family-bold = "BlexMono Nerd Font Mono Bold"
+font-family-italic = "BlexMono Nerd Font Mono Italic"
+font-family-bold-italic = "BlexMono Nerd Font Mono Italic"
 
-font-synthetic-style = false
+font-synthetic-style = true
 
-font-style = "Bold Italic" 
+font-style = "Italic" 
 font-style-bold = "Bold" 
 font-style-italic = "Italic" 
 font-style-bold-italic = "Bold Italic" 
 
-font-variation = "wght=400"
-font-variation-italic = "wght=400"
-font-variation-italic = "slnt=0"
+#font-variation = "wght=100"
+#font-variation-italic = "wght=100"
+#font-variation-italic = "slnt=0"
 
-adjust-cell-height = 20%
+font-variation-bold = wght=700
+
+
+adjust-cell-height = 25%
 adjust-cell-width = -10%
 adjust-font-baseline = -1
 
 scrollback-limit = 999999
+#font-synthetic-style = no-bold,no-italic,no-bold-italic
+font-synthetic-style = true
 
 
 gtk-custom-css=./ghostty.css
+
+alpha-blending=native
